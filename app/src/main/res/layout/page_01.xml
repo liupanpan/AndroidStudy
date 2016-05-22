@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/dimen_30_dip"
+        android:layout_marginLeft="@dimen/dimen_20_dip"
+        android:layout_marginRight="@dimen/dimen_20_dip"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_fragment">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_20_dip"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:text="步数"
+            android:id="@+id/textView1"
+            android:textColor="@color/white"/>
+        <View
+            android:layout_marginTop="@dimen/dimen_30_dip"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:layout_marginRight="@dimen/dimen_10_dip"
+            android:layout_width="353dp"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/dimen_20_dip"
+        android:layout_marginLeft="@dimen/dimen_20_dip"
+        android:layout_marginRight="@dimen/dimen_20_dip"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_fragment">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_20_dip"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:text="步行+跑步距离"
+            android:id="@+id/textView1"
+            android:textColor="@color/white"/>
+        <View
+            android:layout_marginTop="@dimen/dimen_30_dip"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:layout_marginRight="@dimen/dimen_10_dip"
+            android:layout_width="353dp"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+    </LinearLayout>
+</LinearLayout>
